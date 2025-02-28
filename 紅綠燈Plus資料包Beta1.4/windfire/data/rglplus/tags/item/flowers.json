@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:bookshelf_books",
+    "#minecraft:flowers",
+    "#minecraft:saplings",
+    "#minecraft:villager_plantable_seeds",
+    "minecraft:cactus",
+    "minecraft:mangrove_propagule"
+  ]
+}

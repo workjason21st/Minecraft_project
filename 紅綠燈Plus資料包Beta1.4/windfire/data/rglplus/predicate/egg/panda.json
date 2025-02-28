@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "equipment": {
+      "offhand": {
+        "items": [
+          "minecraft:panda_spawn_egg"
+        ]
+      }
+    },
+    "nbt": "{HideFlags:1,EntityTag:{id:panda,MainGene:brown,HiddenGene:brown,CustomName:'[{\"text\":\"異色熊貓\",\"color\":\"aqua\"}]',CustomNameVisible:1b,Invulnerable:1b,PersistenceRequired:1b,Age:-214,ForcedAge:214,InLove:1b}}"
+  }
+}

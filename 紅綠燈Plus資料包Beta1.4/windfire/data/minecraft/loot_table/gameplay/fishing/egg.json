@@ -1,0 +1,429 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:rabbit_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "放置副手就能召喚跳跳兔",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {"text": ""},
+                {
+                  "text": "釣魚彩蛋",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "跳跳兔",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{HideFlags:1,EntityTag:{id:rabbit,RabbitType:3,MoreCarrotTicks:0,CustomName:'[{\"text\":\"跳跳兔\",\"color\":\"aqua\"}]',CustomNameVisible:1b,Invulnerable:1b,PersistenceRequired:1b,active_effects:[{id:jump_boost,duration:999999,amplifier:5,show_particles:0b}],Age:-919,ForcedAge:919,InLove:1b}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:bee_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "放置副手就能召喚不死殺人蜂",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {"text": ""},
+                {
+                  "text": "釣魚彩蛋",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "不死殺人蜂",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{HideFlags:1,HasNectar:1b,AngerTime:2147483647,CannotEnterHiveTicks:-1,CropsGrownSincePollination:-1,CustomName:'[{\"text\":\"不死殺人蜂\",\"color\":\"aqua\"}]',CustomNameVisible:1b,Invulnerable:1b,PersistenceRequired:1b,Age:-814,ForcedAge:814,InLove:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:panda_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "放置副手就能召喚異色熊貓",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {"text": ""},
+                {
+                  "text": "釣魚彩蛋",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "異色熊貓",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{HideFlags:1,EntityTag:{id:panda,MainGene:brown,HiddenGene:brown,CustomName:'[{\"text\":\"異色熊貓\",\"color\":\"aqua\"}]',CustomNameVisible:1b,Invulnerable:1b,PersistenceRequired:1b,Age:-214,ForcedAge:214,InLove:1b}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "C瓜之力 (09:15)",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                },
+                {"text": ""},
+                {
+                  "text": "釣魚彩蛋",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "西瓜汁",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{HideFlags:32}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "quality": 2,
+          "name": "minecraft:diamond_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "冰霜行者 enchantment.level.0201",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "不是本人不會有效果",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {"text": ""},
+                {
+                  "text": "釣魚彩蛋",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "艾莎鞋",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:frost_walker": 0,
+                "minecraft:lure": 4
+              },
+              "add": true
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{HideFlags:127,Unbreakable:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 9,
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "這是其實是",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "紅色斧頭",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                },
+                {"text": ""},
+                {
+                  "text": "釣魚彩蛋",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "聖誕帽",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": 0
+              },
+              "add": true
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{HideFlags:127,Unbreakable:1,display:{color:16711680},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Slot:\"mainhand\",Amount:9,Operation:0,UUID:[I;1050381542,1052850315,1005369922,1080048549]}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:golden_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "擊退 enchantment.level.1027",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {"text": ""},
+                {
+                  "text": "釣魚彩蛋",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "暴民劍",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:knockback": 27
+              },
+              "add": true
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{HideFlags:127,Unbreakable:1,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Slot:\"mainhand\",Amount:0,Operation:0,UUID:[I;1050381542,1052850315,1005369922,1080048549]}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:light",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "發光 enchantment.level.0512",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "放置副手就能使發發發光",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {"text": ""},
+                {
+                  "text": "釣魚彩蛋",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "發發發光",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+              },
+              "add": true
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{HideFlags:127,Unbreakable:1}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:bucket",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "嘔吐 enchantment.level.0320",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "放置副手就能使全場的人噁心一次(除了...)",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {"text": ""},
+                {
+                  "text": "釣魚彩蛋",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "嘔吐桶",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+              },
+              "add": true
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{HideFlags:127,Unbreakable:1}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

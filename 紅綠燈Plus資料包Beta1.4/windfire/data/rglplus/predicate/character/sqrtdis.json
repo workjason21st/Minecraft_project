@@ -1,0 +1,31 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "type_specific": {
+          "type": "minecraft:player",
+          "gamemode": [
+            "adventure"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "rglplus_dis": {
+          "min": 2
+        },
+        "rglplus_disx": {
+          "min": -1,
+          "max": 4
+        }
+      }
+    }
+  ]
+}

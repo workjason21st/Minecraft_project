@@ -1,0 +1,5 @@
+#
+execute if score 7-0-7-0-000700000007 rglplusshowdis matches 0 run title @s actionbar ["",{"text":"距離最近的孩子為： ","color":"red"},{"text":" 500+ ","bold":true,"color":"dark_red"}]
+execute if score 7-0-7-0-000700000007 rglplusshowdis matches 1 run title @s actionbar ["",{"text":"距離最近孩子的格數： ","color":"red"},{"text":" 500+ ","bold":true,"color":"dark_red"},{"text":"  (","color":"green"},{"selector":"@p[tag=green,team=human]","bold":true},{"text":")","color":"green"}]
+execute if score 7-0-7-0-000700000007 rglplusshowdis matches 2 if entity @a[gamemode=adventure,team=humanred,tag=red] run title @s actionbar ["",{"text":"距離最近孩子的格數： ","color":"red"},{"text":" 500+ ","bold":true,"color":"dark_red"},{"text":" (","color":"green"},{"selector":"@p[tag=green,team=human]","bold":true},{"text":")","color":"green"}]
+execute if score 7-0-7-0-000700000007 rglplusshowdis matches 3 unless entity @a[gamemode=adventure,team=humanred,tag=red] run title @s actionbar ["",{"text":"距離最近孩子的格數： ","color":"red"},{"text":" 500+ ","bold":true,"color":"dark_red"},{"text":" (","color":"green"},{"selector":"@p[tag=green,team=human]","bold":true},{"text":")","color":"green"}]

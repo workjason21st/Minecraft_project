@@ -1,0 +1,31 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:replaceable",
+    "#minecraft:flowers",
+    "minecraft:cobweb",
+    "minecraft:chain",
+    "minecraft:kelp",
+    "minecraft:kelp_plant",
+    "minecraft:powder_snow",
+    "minecraft:small_dripleaf",
+    "minecraft:big_dripleaf",
+    "#minecraft:saplings",
+    "#minecraft:wool_carpets",
+    "#minecraft:wooden_doors",
+    "minecraft:sugar_cane",
+    "#minecraft:wooden_trapdoors",
+    "#minecraft:wooden_doors",
+    "#minecraft:buttons",
+    "#minecraft:wall_post_override",
+    "#minecraft:underwater_bonemeals",
+    "#minecraft:rails",
+    "#minecraft:flower_pots",
+    "#minecraft:fire",
+    "#minecraft:fence_gates",
+    "#minecraft:crops",
+    "#minecraft:climbable",
+    "#minecraft:candles",
+    "#minecraft:candle_cakes"
+  ]
+}

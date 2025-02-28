@@ -1,0 +1,6 @@
+#若不小心被air取代了先復原
+execute store result score @s torchcount run clear @s minecraft:torch 0
+scoreboard players add @s torchcount 1
+execute if score @s propscount matches 2.. if score @s torchcount matches 1 run item replace entity @s inventory.26 with torch[custom_name='["",{"text":"道具之火","italic":false,"color":"gold","bold":true}]',lore=['["",{"text":"當道具格有其他道具時,會將得到的道具先轉成道具之火","italic":false,"color":"yellow"}]','[{"text":"若道具格的道具被使用,會將自身自動轉為道具","italic":false,"color":"yellow"}]','[{"text":"無法被丟出","italic":false,"color":"white"}]','[{"text":"","italic":false,"color":"white"}]','[{"text":"若有2個以上的道具未使用時,自動獲得","italic":false,"color":"white"}]']] 1
+execute if score @s propscount matches 3.. unless score @s torchcount = @s propscount run give @s torch[custom_name='["",{"text":"道具之火","italic":false,"color":"gold","bold":true}]',lore=['["",{"text":"當道具格有其他道具時,會將得到的道具先轉成道具之火","italic":false,"color":"yellow"}]','[{"text":"若道具格的道具被使用,會將自身自動轉為道具","italic":false,"color":"yellow"}]','[{"text":"無法被丟出","italic":false,"color":"white"}]','[{"text":"","italic":false,"color":"white"}]','[{"text":"若有2個以上的道具未使用時,自動獲得","italic":false,"color":"white"}]']] 1
+execute if score @s propscount matches 3.. unless score @s torchcount = @s propscount run function rglplus:props/undo

@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "team": "human",
+    "effects": {
+      "minecraft:unluck": {
+        "amplifier": 9
+      }
+    }
+  }
+}

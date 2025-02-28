@@ -1,0 +1,7 @@
+execute if entity @e[tag=rglplus,tag=core,scores={playgame=1..2,rglplusweapon=8..9,rglplusmode=1}] as @s run tellraw @a ["",{"text":"紅綠燈： ","color":"white"},{"text":"壞孩子","color":"aqua"},{"selector":"@s","bold":true},{"text":"被鬼王","color":"aqua"},{"selector":"@a[team=ghost,gamemode=adventure,scores={killdetect=1..}]","bold":true},{"text":"用經驗法則殺死了","color":"aqua"}]
+execute if entity @e[tag=rglplus,tag=core,scores={playgame=1..2,rglplusweapon=8..9,rglplusmode=3..4}] as @s run tellraw @a ["",{"text":"紅綠燈： ","color":"white"},{"text":"壞孩子","color":"aqua"},{"selector":"@s","bold":true},{"text":"被鬼王","color":"aqua"},{"selector":"@a[team=ghost,gamemode=adventure,scores={killdetect=1..}]","bold":true},{"text":"用經驗法則殺死了","color":"aqua"}]
+execute if entity @e[tag=rglplus,tag=core,scores={playgame=1..2,rglplusweapon=8..9,rglplusmode=2}] as @s run tellraw @a ["",{"text":"紅綠燈： ","color":"white"},{"text":"壞孩子","color":"aqua"},{"selector":"@s","bold":true},{"text":"被鬼王","color":"aqua"},{"selector":"@a[team=ghost,gamemode=adventure,scores={killdetect=1..}]","bold":true},{"text":"用經驗而成為新的病原","color":"aqua"}]
+execute if entity @e[tag=rglplus,tag=core,scores={playgame=1..2,rglplusweapon=8..9}] run tag @a add expdeath
+
+execute if entity @e[tag=rglplus,tag=core,scores={playgame=1..2}] run advancement revoke @s only rglplus:death/byexpdamage
+execute if entity @e[tag=rglplus,tag=core,scores={playgame=1..2}] run advancement revoke @s only rglplus:death/byexpdamage2

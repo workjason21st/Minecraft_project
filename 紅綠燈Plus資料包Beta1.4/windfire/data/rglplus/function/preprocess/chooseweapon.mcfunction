@@ -1,0 +1,24 @@
+#武器選擇
+execute as @e[limit=1,type=armor_stand,tag=rglplus,tag=core,scores={rglplussword=3}] store result score @s rglplusweapon run random value 1..13
+#禁用
+execute if entity @e[limit=1,type=armor_stand,tag=rglplus,tag=core,scores={rglplussword=3,rglplusmode=3,rglplusweapon=8..9}] run scoreboard players set @e[limit=1,type=armor_stand,tag=rglplus,tag=core] rglplusweapon 3
+execute if entity @e[limit=1,type=armor_stand,tag=rglplus,tag=core,scores={rglplussword=3,rglplusghostprop=1,rglplusweapon=7}] run scoreboard players set @e[limit=1,type=armor_stand,tag=rglplus,tag=core] rglplusweapon 3
+
+execute if entity @e[limit=1,type=armor_stand,tag=rglplus,tag=core,scores={rglplussword=2}] if entity @e[limit=1,type=armor_stand,tag=random1,tag=rglplus,scores={rglplusround=2..}] run scoreboard players add @e[limit=1,type=armor_stand,tag=rglplus,tag=core] rglplusweapon 1
+execute if entity @e[limit=1,type=armor_stand,tag=rglplus,tag=core,scores={rglplussword=2,rglplusghostprop=1,rglplusweapon=7}] if entity @e[limit=1,type=armor_stand,tag=random1,tag=rglplus,scores={rglplusround=2..}] run scoreboard players set @e[limit=1,type=armor_stand,tag=rglplus,tag=core] rglplusweapon 8
+execute if entity @e[limit=1,type=armor_stand,tag=rglplus,tag=core,scores={rglplussword=2,rglplusmode=3,rglplusweapon=8..9}] if entity @e[limit=1,type=armor_stand,tag=random1,tag=rglplus,scores={rglplusround=2..}] run scoreboard players set @e[limit=1,type=armor_stand,tag=rglplus,tag=core] rglplusweapon 10
+execute if entity @e[limit=1,type=armor_stand,tag=rglplus,tag=core,scores={rglplussword=2,rglplusweapon=14..}] if entity @e[limit=1,type=armor_stand,tag=random1,tag=rglplus,scores={rglplusround=2..}] run scoreboard players set @e[limit=1,type=armor_stand,tag=rglplus,tag=core] rglplusweapon 1
+
+execute if entity @e[limit=1,type=armor_stand,tag=rglplus,tag=core,scores={rglplussword=2..3,rglplusweapon=1}] run tellraw @a ["",{"text":"此回合系統選擇","color":"white"},{"text":"骨頭(6傷)","color":"gold"},{"text":"作為鬼的武器","color":"white"}]
+execute if entity @e[limit=1,type=armor_stand,tag=rglplus,tag=core,scores={rglplussword=2..3,rglplusweapon=2}] run tellraw @a ["",{"text":"此回合系統選擇","color":"white"},{"text":"鐵劍(9傷)","color":"gold"},{"text":"作為鬼的武器","color":"white"}]
+execute if entity @e[limit=1,type=armor_stand,tag=rglplus,tag=core,scores={rglplussword=2..3,rglplusweapon=3}] run tellraw @a ["",{"text":"此回合系統選擇","color":"white"},{"text":"金斧(13傷)","color":"gold"},{"text":"作為鬼的武器","color":"white"}]
+execute if entity @e[limit=1,type=armor_stand,tag=rglplus,tag=core,scores={rglplussword=2..3,rglplusweapon=4}] run tellraw @a ["",{"text":"此回合系統選擇","color":"white"},{"text":"鑽劍(17傷)","color":"gold"},{"text":"作為鬼的武器","color":"white"}]
+execute if entity @e[limit=1,type=armor_stand,tag=rglplus,tag=core,scores={rglplussword=2..3,rglplusweapon=5}] run tellraw @a ["",{"text":"此回合系統選擇","color":"white"},{"text":"獄髓斧(20傷)","color":"gold"},{"text":"作為鬼的武器","color":"white"}]
+execute if entity @e[limit=1,type=armor_stand,tag=rglplus,tag=core,scores={rglplussword=2..3,rglplusweapon=6}] run tellraw @a ["",{"text":"此回合系統選擇","color":"white"},{"text":"三叉戟(近距5傷/遠距8傷)","color":"gold"},{"text":"作為鬼的武器","color":"white"}]
+execute if entity @e[limit=1,type=armor_stand,tag=rglplus,tag=core,scores={rglplussword=2..3,rglplusweapon=7}] run tellraw @a ["",{"text":"此回合系統選擇","color":"white"},{"text":"打火石(共8傷)","color":"gold"},{"text":"作為鬼的武器","color":"white"}]
+execute if entity @e[limit=1,type=armor_stand,tag=rglplus,tag=core,scores={rglplussword=2..3,rglplusweapon=8}] run tellraw @a ["",{"text":"此回合系統選擇","color":"white"},{"text":"凌遲經驗瓶(共4傷)","color":"gold"},{"text":"作為鬼的武器","color":"white"}]
+execute if entity @e[limit=1,type=armor_stand,tag=rglplus,tag=core,scores={rglplussword=2..3,rglplusweapon=9}] run tellraw @a ["",{"text":"此回合系統選擇","color":"white"},{"text":"致命經驗瓶(20傷)","color":"gold"},{"text":"作為鬼的武器","color":"white"}]
+execute if entity @e[limit=1,type=armor_stand,tag=rglplus,tag=core,scores={rglplussword=2..3,rglplusweapon=10}] run tellraw @a ["",{"text":"此回合系統選擇","color":"white"},{"text":"緩速弓(5傷)","color":"gold"},{"text":"作為鬼的武器","color":"white"}]
+execute if entity @e[limit=1,type=armor_stand,tag=rglplus,tag=core,scores={rglplussword=2..3,rglplusweapon=11}] run tellraw @a ["",{"text":"此回合系統選擇","color":"white"},{"text":"煙火弩(4~6範圍傷)","color":"gold"},{"text":"作為鬼的武器","color":"white"}]
+execute if entity @e[limit=1,type=armor_stand,tag=rglplus,tag=core,scores={rglplussword=2..3,rglplusweapon=12}] run tellraw @a ["",{"text":"此回合系統選擇","color":"white"},{"text":"超長鎖鏈(2傷)","color":"gold"},{"text":"作為鬼的武器","color":"white"}]
+execute if entity @e[limit=1,type=armor_stand,tag=rglplus,tag=core,scores={rglplussword=2..3,rglplusweapon=13}] run tellraw @a ["",{"text":"此回合系統選擇","color":"white"},{"text":"重錘(基礎6傷)","color":"gold"},{"text":"作為鬼的武器","color":"white"}]

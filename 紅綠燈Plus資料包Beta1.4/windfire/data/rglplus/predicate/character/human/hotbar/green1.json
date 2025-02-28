@@ -1,0 +1,177 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "type_specific": {
+          "type": "minecraft:player",
+          "gamemode": [
+            "adventure"
+          ]
+        },
+        "team": "human"
+      }
+    },
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "hotbar.0": {
+                      "items": "#minecraft:trimmable_armor"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "hotbar.0": {
+                      "items": "minecraft:lime_concrete_powder",
+                      "components": {
+                        "minecraft:custom_name": "[\"\",{\"text\":\"綠燈行\",\"italic\":false,\"color\":\"dark_green\",\"bold\":true}]",
+                        "minecraft:lore": [
+                          "[\"\",{\"text\":\"讓紅燈狀態的隊友可以行動\",\"italic\":false,\"color\":\"green\"}]",
+                          "[{\"text\":\"(只會救三格內且最近的隊友)\",\"italic\":false,\"color\":\"green\"}]",
+                          "[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]",
+                          "[{\"text\":\"將它丟出即可發動\",\"italic\":false,\"color\":\"white\"}]"
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "slots": {
+                "hotbar.1": {
+                  "items": "minecraft:lime_concrete_powder",
+                  "components": {
+                    "minecraft:custom_name": "[\"\",{\"text\":\"綠燈行\",\"italic\":false,\"color\":\"dark_green\",\"bold\":true}]",
+                    "minecraft:lore": [
+                      "[\"\",{\"text\":\"讓紅燈狀態的隊友可以行動\",\"italic\":false,\"color\":\"green\"}]",
+                      "[{\"text\":\"(只會救三格內且最近的隊友)\",\"italic\":false,\"color\":\"green\"}]",
+                      "[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]",
+                      "[{\"text\":\"將它丟出即可發動\",\"italic\":false,\"color\":\"white\"}]"
+                    ]
+                  }
+                },
+                "hotbar.2": {
+                  "items": "minecraft:red_concrete_powder",
+                  "components": {
+                    "minecraft:custom_name": "[\"\",{\"text\":\"紅燈停\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]",
+                    "minecraft:lore": [
+                      "[\"\",{\"text\":\"讓自身不會受到傷害\",\"italic\":false,\"color\":\"red\"}]",
+                      "[{\"text\":\"但不能行走、跑跳\",\"italic\":false,\"color\":\"red\"}]",
+                      "[{\"text\":\"並且自身持續發光，隊友發光1秒\",\"italic\":false,\"color\":\"red\"}]",
+                      "[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]",
+                      "[{\"text\":\"將它丟出即可發動\",\"italic\":false,\"color\":\"white\"}]"
+                    ]
+                  }
+                },
+                "hotbar.3": {
+                  "items": "minecraft:red_concrete_powder",
+                  "components": {
+                    "minecraft:custom_name": "[\"\",{\"text\":\"紅燈停\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]",
+                    "minecraft:lore": [
+                      "[\"\",{\"text\":\"讓自身不會受到傷害\",\"italic\":false,\"color\":\"red\"}]",
+                      "[{\"text\":\"但不能行走、跑跳\",\"italic\":false,\"color\":\"red\"}]",
+                      "[{\"text\":\"並且自身持續發光，隊友發光1秒\",\"italic\":false,\"color\":\"red\"}]",
+                      "[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]",
+                      "[{\"text\":\"將它丟出即可發動\",\"italic\":false,\"color\":\"white\"}]"
+                    ]
+                  }
+                },
+                "hotbar.4": {
+                  "items": "minecraft:lime_concrete_powder",
+                  "components": {
+                    "minecraft:custom_name": "[\"\",{\"text\":\"綠燈行\",\"italic\":false,\"color\":\"dark_green\",\"bold\":true}]",
+                    "minecraft:lore": [
+                      "[\"\",{\"text\":\"讓紅燈狀態的隊友可以行動\",\"italic\":false,\"color\":\"green\"}]",
+                      "[{\"text\":\"(只會救三格內且最近的隊友)\",\"italic\":false,\"color\":\"green\"}]",
+                      "[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]",
+                      "[{\"text\":\"將它丟出即可發動\",\"italic\":false,\"color\":\"white\"}]"
+                    ]
+                  }
+                },
+                "hotbar.5": {
+                  "items": "minecraft:red_concrete_powder",
+                  "components": {
+                    "minecraft:custom_name": "[\"\",{\"text\":\"紅燈停\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]",
+                    "minecraft:lore": [
+                      "[\"\",{\"text\":\"讓自身不會受到傷害\",\"italic\":false,\"color\":\"red\"}]",
+                      "[{\"text\":\"但不能行走、跑跳\",\"italic\":false,\"color\":\"red\"}]",
+                      "[{\"text\":\"並且自身持續發光，隊友發光1秒\",\"italic\":false,\"color\":\"red\"}]",
+                      "[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]",
+                      "[{\"text\":\"將它丟出即可發動\",\"italic\":false,\"color\":\"white\"}]"
+                    ]
+                  }
+                },
+                "hotbar.6": {
+                  "items": "minecraft:lime_concrete_powder",
+                  "components": {
+                    "minecraft:custom_name": "[\"\",{\"text\":\"綠燈行\",\"italic\":false,\"color\":\"dark_green\",\"bold\":true}]",
+                    "minecraft:lore": [
+                      "[\"\",{\"text\":\"讓紅燈狀態的隊友可以行動\",\"italic\":false,\"color\":\"green\"}]",
+                      "[{\"text\":\"(只會救三格內且最近的隊友)\",\"italic\":false,\"color\":\"green\"}]",
+                      "[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]",
+                      "[{\"text\":\"將它丟出即可發動\",\"italic\":false,\"color\":\"white\"}]"
+                    ]
+                  }
+                },
+                "hotbar.7": {
+                  "items": "minecraft:red_concrete_powder",
+                  "components": {
+                    "minecraft:custom_name": "[\"\",{\"text\":\"紅燈停\",\"italic\":false,\"bold\":true,\"color\":\"dark_red\"}]",
+                    "minecraft:lore": [
+                      "[\"\",{\"text\":\"讓自身不會受到傷害\",\"italic\":false,\"color\":\"red\"}]",
+                      "[{\"text\":\"但不能行走、跑跳\",\"italic\":false,\"color\":\"red\"}]",
+                      "[{\"text\":\"並且自身持續發光，隊友發光1秒\",\"italic\":false,\"color\":\"red\"}]",
+                      "[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]",
+                      "[{\"text\":\"將它丟出即可發動\",\"italic\":false,\"color\":\"white\"}]"
+                    ]
+                  }
+                },
+                "hotbar.8": {
+                  "items": "minecraft:lime_concrete_powder",
+                  "components": {
+                    "minecraft:custom_name": "[\"\",{\"text\":\"綠燈行\",\"italic\":false,\"color\":\"dark_green\",\"bold\":true}]",
+                    "minecraft:lore": [
+                      "[\"\",{\"text\":\"讓紅燈狀態的隊友可以行動\",\"italic\":false,\"color\":\"green\"}]",
+                      "[{\"text\":\"(只會救三格內且最近的隊友)\",\"italic\":false,\"color\":\"green\"}]",
+                      "[{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]",
+                      "[{\"text\":\"將它丟出即可發動\",\"italic\":false,\"color\":\"white\"}]"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

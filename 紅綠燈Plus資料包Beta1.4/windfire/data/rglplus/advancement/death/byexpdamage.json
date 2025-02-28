@@ -1,0 +1,78 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "rglplus:detect/isexp"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {}
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "deathdetect": {
+                "min": 1
+              }
+            }
+          }
+        ],
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:bypasses_effects",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_fire",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_fall",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_freezing",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_explosion",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_projectile",
+                "expected": false
+              },
+              {
+                "id": "minecraft:no_knockback",
+                "expected": true
+              },
+              {
+                "id": "minecraft:bypasses_wolf_armor",
+                "expected": true
+              },
+              {
+                "id": "minecraft:panic_causes",
+                "expected": true
+              },
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rglplus:deathsay/byexpdamage"
+  }
+}

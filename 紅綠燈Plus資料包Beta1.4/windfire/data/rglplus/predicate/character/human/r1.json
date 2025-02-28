@@ -1,0 +1,26 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "type_specific": {
+          "type": "minecraft:player",
+          "gamemode": [
+            "adventure"
+          ]
+        },
+        "team": "human"
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "random10": 1
+      }
+    }
+  ]
+}

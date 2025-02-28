@@ -1,0 +1,18 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "team": "human",
+    "effects": {
+      "minecraft:instant_damage": {
+        "amplifier": 9,
+        "duration": {
+          "min": 0,
+          "max": 9999
+        },
+        "visible": false
+      }
+    }
+  }
+}

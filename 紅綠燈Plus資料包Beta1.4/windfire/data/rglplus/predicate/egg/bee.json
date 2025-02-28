@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "equipment": {
+      "offhand": {
+        "items": [
+          "minecraft:bee_spawn_egg"
+        ]
+      }
+    },
+    "nbt": "{HideFlags:1,HasNectar:1b,AngerTime:2147483647,CannotEnterHiveTicks:-1,CropsGrownSincePollination:-1,CustomName:'[{\"text\":\"不死殺人蜂\",\"color\":\"aqua\"}]',CustomNameVisible:1b,Invulnerable:1b,PersistenceRequired:1b,Age:-814,ForcedAge:814,InLove:1b}"
+  }
+}

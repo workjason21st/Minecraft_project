@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "team": "human",
+    "effects": {
+      "minecraft:wither": {
+        "amplifier": {
+          "min": 3,
+          "max": 3
+        },
+        "duration": {
+          "min": 0,
+          "max": 9999
+        },
+        "visible": true
+      }
+    }
+  }
+}

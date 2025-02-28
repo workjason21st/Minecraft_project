@@ -1,0 +1,22 @@
+{
+	"replace": true,
+	"values": [
+    "minecraft:stick",
+    "minecraft:bone",
+    "minecraft:wooden_sword",
+    "minecraft:stone_axe",
+    "minecraft:iron_sword",
+    "minecraft:golden_axe",
+    "minecraft:diamond_sword",
+    "minecraft:netherite_axe",
+    "minecraft:experience_bottle",
+    "minecraft:fishing_rod",
+		"minecraft:trident",
+		"minecraft:crossbow",
+    "minecraft:firework_rocket",
+    "minecraft:snowball",
+    "minecraft:flint_and_steel",
+    "minecraft:chain",
+    "minecraft:mace"
+	]
+}

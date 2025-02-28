@@ -1,0 +1,8 @@
+execute if entity @e[tag=rglplus,tag=core,scores={rglplusmode=1..2,rglplusaddtime=0,rglplusghostprop=1,rglpluskidsword=0}] run tellraw @a[tag=killbad] ["",{"text":"紅綠燈： ","color":"white"},{"text":"你成功抓到壞孩子，","color":"white"},{"text":"額外獲得道具","color":"white"}]
+execute if entity @e[tag=rglplus,tag=core,scores={rglplusmode=1..2,rglplusaddtime=0,rglplusghostprop=0,rglpluskidsword=1..}] run tellraw @a[tag=killbad] ["",{"text":"紅綠燈： ","color":"white"},{"text":"你成功抓到壞孩子，","color":"white"},{"text":"額外獲得道具","color":"white"}]
+execute if entity @e[tag=rglplus,tag=core,scores={rglplusmode=1..2,rglplusaddtime=0,rglplusghostprop=1,rglpluskidsword=1..}] run tellraw @a[tag=killbad] ["",{"text":"紅綠燈： ","color":"white"},{"text":"你成功抓到壞孩子，","color":"white"},{"text":"額外獲得道具*2","color":"white"}]
+execute if entity @e[tag=rglplus,tag=core,scores={rglplusmode=4,rglplusghostprop=1,rglpluskidsword=0}] run tellraw @a[tag=killbad] ["",{"text":"紅綠燈： ","color":"white"},{"text":"你成功抓到壞孩子，","color":"white"},{"text":"額外獲得道具","color":"white"}]
+execute if entity @e[tag=rglplus,tag=core,scores={rglplusmode=4,rglplusghostprop=0,rglpluskidsword=1..}] run tellraw @a[tag=killbad] ["",{"text":"紅綠燈： ","color":"white"},{"text":"你成功抓到壞孩子，","color":"white"},{"text":"額外獲得道具","color":"white"}]
+execute if entity @e[tag=rglplus,tag=core,scores={rglplusmode=4,rglplusghostprop=1,rglpluskidsword=1..}] run tellraw @a[tag=killbad] ["",{"text":"紅綠燈： ","color":"white"},{"text":"你成功抓到壞孩子，","color":"white"},{"text":"額外獲得道具*2","color":"white"}]
+
+tag @a[tag=killbad] remove killbad

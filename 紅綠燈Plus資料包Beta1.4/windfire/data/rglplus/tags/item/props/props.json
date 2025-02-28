@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:honey_block",
+    "minecraft:glow_ink_sac",
+    "minecraft:blue_ice",
+    "minecraft:gunpowder",
+    "minecraft:obsidian",
+    "minecraft:pointed_dripstone"
+  ]
+}

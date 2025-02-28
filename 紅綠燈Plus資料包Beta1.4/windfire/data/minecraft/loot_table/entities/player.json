@@ -1,0 +1,345 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_custom_data",
+                  "tag": "{RGLplusPlayerDeath:1b}"
+                },
+                {
+      						"function": "minecraft:set_name",
+      						"entity": "this",
+      						"name": {"selector":"@s"}
+      					},
+      					{
+      						"function": "minecraft:fill_player_head",
+      						"entity": "this"
+      					},
+                {
+                  "function": "minecraft:set_lore",
+                  "entity": "this",
+                  "mode": "append",
+                  "lore": [
+                    {
+                      "selector": "@s"
+                    }
+                  ]
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "entity": "attacker",
+                  "mode": "append",
+                  "lore": [
+                    {
+                      "selector": "@s"
+                    }
+                  ]
+                },
+                {
+                  "function": "minecraft:set_lore",
+                  "entity": "direct_attacker",
+                  "mode": "append",
+                  "lore": [
+                    {
+                      "selector": "@s"
+                    }
+                  ]
+                },
+                {
+                  "function": "minecraft:copy_custom_data",
+                  "source": "this",
+                  "ops": [
+                    {
+                      "source": "Pos",
+                      "target": "RGLplusKillerPos",
+                      "op": "append"
+                    }
+                  ]
+                },
+                {
+                  "function": "minecraft:copy_custom_data",
+                  "source": "this",
+                  "ops": [
+                    {
+                      "source": "Pos",
+                      "target": "RGLplusVictimPos",
+                      "op": "append"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:copy_custom_data",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "rglplus:messages"
+      },
+      "ops": [
+        {
+          "source": "combat",
+          "target": "event",
+          "op": "replace"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_custom_data",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "rglplus:messages"
+      },
+      "ops": [
+        {
+          "source": "explosion",
+          "target": "event",
+          "op": "replace"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+                      {
+                        "id": "minecraft:is_explosion",
+                        "expected": true
+                      }
+                    ]
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_custom_data",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "rglplus:messages"
+      },
+      "ops": [
+        {
+          "source": "suffocation",
+          "target": "event",
+          "op": "replace"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_custom_data",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "rglplus:messages"
+      },
+      "ops": [
+        {
+          "source": "fall",
+          "target": "event",
+          "op": "replace"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "id": "minecraft:is_fall",
+                "expected": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_custom_data",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "rglplus:messages"
+      },
+      "ops": [
+        {
+          "source": "magic",
+          "target": "event",
+          "op": "replace"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "id": "minecraft:bypasses_invulnerability",
+                "expected": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_custom_data",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "rglplus:messages"
+      },
+      "ops": [
+        {
+          "source": "projectile",
+          "target": "event",
+          "op": "replace"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_custom_data",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "rglplus:messages"
+      },
+      "ops": [
+        {
+          "source": "lightning",
+          "target": "event",
+          "op": "replace"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "id": "minecraft:is_lightning",
+                "expected": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_custom_data",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "rglplus:messages"
+      },
+      "ops": [
+        {
+          "source": "fire",
+          "target": "event",
+          "op": "replace"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "id": "minecraft:is_fire",
+                "expected": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_custom_data",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "rglplus:messages"
+      },
+      "ops": [
+        {
+          "source": "void",
+          "target": "event",
+          "op": "replace"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "id": "minecraft:bypasses_invulnerability",
+                "expected": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_custom_data",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "rglplus:messages"
+      },
+      "ops": [
+        {
+          "source": "starvation",
+          "target": "event",
+          "op": "replace"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "id": "minecraft:bypasses_effects",
+                "expected": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

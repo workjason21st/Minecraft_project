@@ -1,0 +1,44 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "team": "human"
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "effects": {
+                  "minecraft:luck": {}
+                }
+              }
+            }
+          }
+        ],
+        "damage": {
+          "type": {
+            "source_entity": {
+              "type": "minecraft:player",
+              "team": "ghost"
+            },
+            "direct_entity": {
+              "type": "minecraft:trident"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rglplus:start/mode3/damagebyghost"
+  }
+}

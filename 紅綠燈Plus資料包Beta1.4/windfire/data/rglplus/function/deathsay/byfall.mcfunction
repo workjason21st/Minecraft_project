@@ -1,0 +1,5 @@
+execute if entity @e[tag=rglplus,tag=core,scores={playgame=1..2,rglplusmode=1}] as @s[team=human] run tellraw @a ["",{"text":"紅綠燈： ","color":"white"},{"text":"壞孩子","color":"aqua"},{"selector":"@s","bold":true},{"text":"把命給摔沒了","color":"aqua"}]
+execute if entity @e[tag=rglplus,tag=core,scores={playgame=1..2,rglplusmode=3..4}] as @s[team=human] run tellraw @a ["",{"text":"紅綠燈： ","color":"white"},{"text":"壞孩子","color":"aqua"},{"selector":"@s","bold":true},{"text":"把命給摔沒了","color":"aqua"}]
+execute if entity @e[tag=rglplus,tag=core,scores={playgame=1..2,rglplusmode=2}] as @s[team=human] run tellraw @a ["",{"text":"紅綠燈： ","color":"white"},{"text":"壞孩子","color":"aqua"},{"selector":"@s","bold":true},{"text":"為了成為新的病原把命給摔沒了","color":"aqua"}]
+execute if entity @e[tag=rglplus,tag=core,scores={playgame=1..2}] as @s[team=ghost] run tellraw @a ["",{"text":"紅綠燈： ","color":"white"},{"text":"鬼","color":"dark_aqua"},{"selector":"@s","bold":true,"color":"dark_aqua"},{"text":"把命給摔沒了","color":"dark_aqua"}]
+execute if entity @e[tag=rglplus,tag=core,scores={playgame=1..2}] run advancement revoke @s only rglplus:death/byfall
