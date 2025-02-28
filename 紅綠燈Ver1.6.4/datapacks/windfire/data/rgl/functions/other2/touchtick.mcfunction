@@ -1,0 +1,6 @@
+#kill and set
+execute if entity @e[tag=core,scores={gameend=2,rglspecial=0}] unless entity @e[tag=tick,scores={gametime=0,rgltime=0}] if entity @a[gamemode=adventure,team=bad,tag=touch] if entity @e[tag=touchtick,nbt={PortalCooldown:40}] as @r[gamemode=adventure,team=good] run function rgl:other/touchkill
+execute if entity @e[tag=core,scores={gameend=2,rglspecial=2..3}] unless entity @e[tag=tick,scores={gametime=0,rgltime=0}] if entity @a[gamemode=adventure,team=bad,tag=touch] if entity @e[tag=touchtick,nbt={PortalCooldown:40}] as @r[gamemode=adventure,team=good] run function rgl:other/touchkill
+#execute if entity @e[tag=core,scores={gameend=2,rglspecial=0,rglmode=7}] unless entity @e[tag=tick,scores={gametime=0,rgltime=0}] if entity @a[gamemode=adventure,team=bad,tag=touch] if entity @e[tag=touchtick,nbt={PortalCooldown:40}] as @r[gamemode=adventure,team=good] run function rgl:other/touchtrans
+execute if entity @e[tag=core,scores={gameend=2,rglspecial=1}] unless entity @e[tag=tick,scores={gametime=0,rgltime=0}] if entity @a[gamemode=adventure,team=bad,tag=touch] if entity @e[tag=touchtick,nbt={PortalCooldown:40}] as @r[gamemode=adventure,team=good] run function rgl:other/touchkillall
+execute if entity @e[tag=core,scores={gameend=2..}] as @e[tag=touchtick,nbt={PortalCooldown:40}] run function rgl:start/touchset

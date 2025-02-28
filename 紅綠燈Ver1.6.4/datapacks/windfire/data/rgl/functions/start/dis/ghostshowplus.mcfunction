@@ -1,0 +1,4 @@
+#
+execute if entity @e[tag=core,scores={rglgdis=1}] if entity @a[gamemode=adventure,team=badred,tag=red] run title @s actionbar ["",{"text":"距離最近孩子的格數： ","color":"red"},{"text":" 300+ ","bold":true,"color":"dark_red"},{"text":" (","color":"green"},{"selector":"@p[tag=green,team=bad]","bold":"true"},{"text":")","color":"green"}]
+execute if entity @e[tag=core,scores={rglgdis=2}] unless entity @a[gamemode=adventure,team=badred,tag=red] run title @s actionbar ["",{"text":"距離最近孩子的格數： ","color":"red"},{"text":" 300+ ","bold":true,"color":"dark_red"},{"text":" (","color":"green"},{"selector":"@p[tag=green,team=bad]","bold":"true"},{"text":")","color":"green"}]
+execute if entity @e[tag=core,scores={rglgdis=3}] run title @s actionbar ["",{"text":"距離最近孩子的格數： ","color":"red"},{"text":" 300+ ","bold":true,"color":"dark_red"},{"text":"  (","color":"green"},{"selector":"@p[tag=green,team=bad]","bold":"true"},{"text":")","color":"green"}]

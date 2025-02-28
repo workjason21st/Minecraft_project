@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "rgl:props/slow"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "rgl:props/glow"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "rgl:props/speed"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "rgl:props/strong"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "rgl:props/defense"
+    }
+  ]
+}

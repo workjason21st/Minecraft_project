@@ -1,0 +1,11 @@
+scoreboard players set @e[tag=core,scores={rglmode=6,rglcount=..1}] rglcount 30
+scoreboard players set @e[tag=core,scores={rglmode=6,rglcount=31..}] rglcount 2
+
+execute if entity @e[tag=core] run fill 112 53 103 112 51 103 air
+execute if entity @e[tag=core,scores={rglmode=6,rglcount=0..999}] run setblock 112 53 103 minecraft:oak_wall_sign[facing=east]{Text1:'["",{"text":"全體累積綠燈數量: ","color":"black","bold":"true"}]',Text2:'["",{"text":"到達孩子人數的","color":"dark_blue","bold":"false"},{"score":{"name":"@e[tag=core,limit=1]","objective":"rglcount"},"color":"dark_blue","bold":"true"},{"text":"倍","color":"dark_blue","bold":"false"}]',Text3:'{"text":"(用掉的不列入計算)","clickEvent":{"action":"run_command","value":"scoreboard players add @e[tag=core] rglcount 1"}}',Text4:'{"text":"點我增加","color":"black","clickEvent":{"action":"run_command","value":"function rgl:sign/detail/count"}}'}
+execute if entity @e[tag=core,scores={rglmode=6,rglcount=0..999}] run setblock 112 52 103 minecraft:oak_wall_sign[facing=east]{Text1:'["",{"text":"全體累積綠燈數量: ","color":"black","bold":"true"}]',Text2:'["",{"text":"到達孩子人數的","color":"dark_blue","bold":"false"},{"score":{"name":"@e[tag=core,limit=1]","objective":"rglcount"},"color":"dark_blue","bold":"true"},{"text":"倍","color":"dark_blue","bold":"false"}]',Text3:'{"text":"(用掉的不列入計算)","clickEvent":{"action":"run_command","value":"scoreboard players remove @e[tag=core] rglcount 1"}}',Text4:'{"text":"點我減少","color":"black","clickEvent":{"action":"run_command","value":"function rgl:sign/detail/count"}}'}
+
+execute store result score @e[tag=core,limit=1] laster if entity @a[team=bad]
+scoreboard players operation @e[tag=core,limit=1] rglcount *= @e[tag=core,limit=1] laster
+execute if entity @e[tag=core,scores={rglmode=6,rglcount=0..999}] run setblock 112 51 103 minecraft:oak_wall_sign[facing=east]{Text1:'["",{"text":"依據壞孩子人數計算: ","color":"black","bold":"false"}]',Text2:'["",{"text":"壞孩子全隊總共需要","color":"black","bold":"true"}]',Text3:'["",{"score":{"name":"@e[tag=core,limit=1]","objective":"rglcount"},"color":"black","bold":"true"},{"text":" 個綠燈","color":"black","bold":"false"}]',Text4:'{}'}
+scoreboard players operation @e[tag=core,limit=1] rglcount /= @e[tag=core,limit=1] laster

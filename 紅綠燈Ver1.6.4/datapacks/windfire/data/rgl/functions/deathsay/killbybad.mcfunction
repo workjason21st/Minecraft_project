@@ -1,0 +1,4 @@
+execute if entity @e[tag=core,scores={gameend=1..2,rglmode=1..8,rglspecial=3}] run tellraw @a ["",{"text":"紅綠燈： ","color":"white"},{"text":"鬼","color":"dark_aqua"},{"selector":"@s","bold":"true","color":"dark_aqua"},{"text":"被壞孩子反殺","color":"dark_aqua"}]
+execute if entity @e[tag=core,scores={gameend=1..2,rglmode=9,rglspecial=3}] if entity @s[tag=!pathogen,tag=little] run tellraw @a ["",{"text":"紅綠燈： ","color":"white"},{"text":"病小鬼","color":"dark_aqua"},{"selector":"@s","bold":"true","color":"dark_aqua"},{"text":"被壞孩子反殺","color":"dark_aqua"}]
+execute if entity @e[tag=core,scores={gameend=1..2,rglmode=9,rglspecial=3}] if entity @s[tag=pathogen] run tellraw @a ["",{"text":"紅綠燈： ","color":"white"},{"text":"鬼王","color":"dark_aqua"},{"selector":"@s","bold":"true","color":"dark_aqua"},{"text":"被壞孩子反殺","color":"dark_aqua"}]
+execute if entity @e[tag=core,scores={gameend=1..2,rglspecial=3}] run advancement revoke @s only rgl:death/killbybad

@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "equipment": {
+      "offhand": {
+        "items": [
+          "minecraft:rabbit_spawn_egg"
+        ],
+        "nbt": "{HideFlags:1,EntityTag:{id:rabbit,RabbitType:3,MoreCarrotTicks:0,CustomName:'[{\"text\":\"跳跳兔\",\"color\":\"aqua\"}]',CustomNameVisible:1b,Invulnerable:1b,PersistenceRequired:1b,ActiveEffects:[{Id:8,Duration:999999,Amplifier:5,ShowParticles:0b}],Age:-919,ForcedAge:919,InLove:1b}}"
+      }
+    }
+  }
+}

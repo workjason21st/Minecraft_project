@@ -1,0 +1,8 @@
+scoreboard players set @e[tag=core,scores={rglmode=5..6,rglhealth=..0}] rglhealth 70
+scoreboard players set @e[tag=core,scores={rglmode=5..6,rglhealth=71..}] rglhealth 1
+
+execute if entity @e[tag=core] run fill 112 53 104 112 52 104 air
+execute if entity @e[tag=core,scores={rglmode=5..6,rglhealth=0..70}] run setblock 112 53 104 minecraft:oak_wall_sign[facing=east]{Text1:'["",{"text":"壞孩子們的死亡數: ","color":"black","bold":"true"}]',Text2:'["",{"text":"總共 ","color":"dark_blue","bold":"false"},{"score":{"name":"@e[tag=core,limit=1]","objective":"rglhealth"},"color":"dark_blue","bold":"true"},{"text":" 次","color":"dark_blue","bold":"false"}]',Text3:'{"text":"","clickEvent":{"action":"run_command","value":"scoreboard players add @e[tag=core] rglhealth 1"}}',Text4:'{"text":"點我增加","color":"black","clickEvent":{"action":"run_command","value":"function rgl:sign/detail/health"}}'}
+execute if entity @e[tag=core,scores={rglmode=5..6,rglhealth=0..70}] run setblock 112 52 104 minecraft:oak_wall_sign[facing=east]{Text1:'["",{"text":"壞孩子們的死亡數: ","color":"black","bold":"true"}]',Text2:'["",{"text":"總共 ","color":"dark_blue","bold":"false"},{"score":{"name":"@e[tag=core,limit=1]","objective":"rglhealth"},"color":"dark_blue","bold":"true"},{"text":" 次","color":"dark_blue","bold":"false"}]',Text3:'{"text":"","clickEvent":{"action":"run_command","value":"scoreboard players remove @e[tag=core] rglhealth 1"}}',Text4:'{"text":"點我減少","color":"black","clickEvent":{"action":"run_command","value":"function rgl:sign/detail/health"}}'}
+
+scoreboard players operation @e[tag=random5,limit=1] rglhealth = @e[tag=core,limit=1] rglhealth
