@@ -1,0 +1,1 @@
+﻿{"display":{"description":{"text":"隨機事件開始","color":"white"},"title":{"text":"幸運女神會眷顧你嗎？","color":"white"},"icon":{"item":"writable_book","data":0},"announce_to_chat":false},"criteria":{"":{"trigger":"minecraft:impossible"}},"rewards":{},"requirements":[[""]],"parent":"lucky:startgo"}

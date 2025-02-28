@@ -1,0 +1,1 @@
+﻿{"display":{"description":{"text":"挖了1111個石頭","color":"white"},"title":{"text":"要石頭我多的是","bold":true,"color":"red"},"frame":"challenge","icon":{"item":"stone","data":0},"hidden":true},"criteria":{"":{"trigger":"minecraft:impossible"}},"rewards":{"experience":91,"loot":["minecraft:advancements/rewards"]},"requirements":[[""]],"parent":"lucky:mining"}

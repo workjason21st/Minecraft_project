@@ -1,0 +1,1 @@
+﻿{"display":{"description":{"text":"殺人次數達３０人","color":"white"},"title":{"text":"殺出一條血路","bold":true,"color":"red"},"frame":"challenge","icon":{"item":"lava_bucket","data":0},"hidden":true},"criteria":{"":{"trigger":"minecraft:impossible"}},"rewards":{"experience":91,"loot":["minecraft:advancements/rewards"]},"requirements":[[""]],"parent":"lucky:kill"}

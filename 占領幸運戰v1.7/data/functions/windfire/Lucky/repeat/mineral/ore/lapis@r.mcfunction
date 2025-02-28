@@ -1,0 +1,1 @@
+execute @r[type=armor_stand,tag=lapis] ~ ~ ~ setblock ~ ~ ~ redstone_block

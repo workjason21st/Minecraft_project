@@ -1,0 +1,1 @@
+﻿{"display":{"description":{"text":"用不死圖騰抵擋一次死亡","color":"white"},"title":{"text":"不畏生死","color":"white"},"icon":{"item":"totem_of_undying","data":0},"show_toast":true,"announce_to_chat":false},"criteria":{"":{"trigger":"minecraft:used_totem"}},"rewards":{},"requirements":[[""]],"parent":"lucky:kill"}

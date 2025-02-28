@@ -1,0 +1,1 @@
+﻿{"display":{"description":{"text":"成為專業送頭","color":"white"},"title":{"text":"跟嗜血魔頭學學吧！","bold":true,"color":"white"},"icon":{"item":"skull","data":3},"hidden":true},"criteria":{"":{"trigger":"minecraft:impossible"}},"rewards":{},"requirements":[[""]],"parent":"lucky:end"}

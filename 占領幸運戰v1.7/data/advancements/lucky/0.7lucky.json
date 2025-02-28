@@ -1,0 +1,1 @@
+﻿{"display":{"description":{"text":"０．７％的苦力怕都被我抽中","color":"white"},"title":{"text":"苦力怕與我有緣","color":"white"},"icon":{"item":"skull","data":4},"announce_to_chat":false},"criteria":{"":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"item":"skull","data":4}]}}},"rewards":{},"requirements":[[""]],"parent":"lucky:occupied"}

@@ -1,0 +1,1 @@
+﻿{"display":{"description":{"text":"吃下一顆附魔金蘋果","color":"white"},"title":{"text":"最強大那種","color":"white"},"icon":{"item":"golden_apple","data":1}},"criteria":{"golden_apple":{"trigger":"minecraft:consume_item","conditions":{"item":{"item":"golden_apple","data":1}}}},"rewards":{},"requirements":[["golden_apple"]],"parent":"lucky:kill"}

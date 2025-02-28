@@ -1,0 +1,1 @@
+﻿{"display":{"description":{"text":"等級最高的武器","color":"white"},"title":{"text":"有好劍才能更快殺敵","color":"white"},"icon":{"item":"diamond_sword","data":0},"frame":"goal"},"criteria":{"":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"item":"diamond_sword"}]}}},"rewards":{"experience":1},"requirements":[[""]],"parent":"lucky:kill"}

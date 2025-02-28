@@ -1,0 +1,1 @@
+﻿{"display":{"description":{"text":"生存的第一件事","color":"white"},"title":{"text":"打樹，要用力打","color":"white"},"icon":{"item":"log","data":0},"frame":"goal","show_toast":false},"criteria":{"inv_changed-log":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"item":"log","data":0}]}}},"rewards":{"experience":1},"requirements":[["inv_changed-log"]],"parent":"lucky:startgo"}

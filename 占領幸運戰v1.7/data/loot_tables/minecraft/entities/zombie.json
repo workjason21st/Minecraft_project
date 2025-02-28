@@ -1,0 +1,249 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },  
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:ghast_tear",
+                    "weight": 20,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"回城水滴\",Lore:[\"§8野怪隨機掉落物\",\"§8掉落機率２%\",\"\",\"§2放置副手可快速回城\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:clay_ball",
+                    "weight": 100,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:clay",
+                    "weight": 60,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chorus_fruit",
+                    "weight": 140,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"瞬移果\",Lore:[\"§8野怪隨機掉落物\",\"§8掉落機率１４%\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:experience_bottle",
+                    "weight": 140,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"經驗瓶\",Lore:[\"§8野怪隨機掉落物\",\"§8掉落機率１４%\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_trapdoor",
+                    "weight": 110,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:[\"§8野怪隨機掉落物\",\"§8掉落機率１１%\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:log",
+                    "weight": 110,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 7
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:[\"§8野怪隨機掉落物\",\"§8掉落機率１１%\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:pumpkin_pie",
+                    "weight": 100,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 7
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:[\"§8野怪隨機掉落物\",\"§8掉落機率１０%\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:web",
+                    "weight": 80,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"蜘蛛網\",Lore:[\"§8野怪隨機掉落物\",\"§8掉落機率８%\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot",
+                    "weight": 100,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"金錠\",Lore:[\"§8野怪隨機掉落物\",\"§8掉落機率１０%\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:air",
+                    "weight": 32,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§8野怪隨機掉落物\",\"§8掉落機率？%\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:wooden_axe",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.07,
+                                "max": 0.77
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§c紅色斧頭\",Lore:[\"§8野怪隨機掉落物\",\"§8掉落機率０.１%\",\"§7命名者到底是甚麼心態?\",\"只有名字是紅色就是紅色斧頭嗎?\",\"§7這被用過了,原來是盜版!\",\"\",\"§c你知道12月5日有什麼節日嗎?\"]},ench:[{id:32,lvl:7}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:dye",
+                    "weight": 7,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1                            
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§d巧克力的神秘豆子\",Lore:[\"§c拿到主手，開啟功能\"]}}"
+                        },
+                        {                       
+                            "function": "set_data",
+                            "data": 3
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

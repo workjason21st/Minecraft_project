@@ -1,0 +1,13 @@
+fill 1150 23 1050 1050 21 950 air 0 replace minecraft:chest
+fill 1150 24 1050 1050 26 950 air 0 replace minecraft:chest
+fill 1150 29 1050 1050 27 950 air 0 replace minecraft:chest
+fill 1150 32 1050 1050 30 950 air 0 replace minecraft:chest
+fill 1150 33 1050 1050 35 950 air 0 replace minecraft:chest
+fill 1150 38 1050 1050 36 950 air 0 replace minecraft:chest
+fill 1150 39 1050 1050 41 950 air 0 replace minecraft:chest
+fill 1150 44 1050 1050 42 950 air 0 replace minecraft:chest
+fill 1150 45 1050 1050 47 950 air 0 replace minecraft:chest
+fill 1150 50 1050 1050 48 950 air 0 replace minecraft:chest
+fill 1150 51 1050 1050 53 950 air 0 replace minecraft:chest
+fill 1120 65 1020 1080 54 980 air 0 replace minecraft:chest
+fill 1120 66 1020 1080 77 980 air 0 replace minecraft:chest

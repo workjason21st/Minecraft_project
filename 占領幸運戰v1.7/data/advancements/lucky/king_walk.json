@@ -1,0 +1,1 @@
+﻿{"display":{"description":{"text":"得到走路不痛的稱號","color":"white"},"title":{"text":"走很多路不會痛？！","bold":true,"color":"white"},"icon":{"item":"diamond_boots","data":0},"hidden":true},"criteria":{"":{"trigger":"minecraft:impossible"}},"rewards":{},"requirements":[[""]],"parent":"lucky:end"}

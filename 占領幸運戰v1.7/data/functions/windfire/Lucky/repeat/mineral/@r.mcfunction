@@ -1,0 +1,1 @@
+execute @r[type=armor_stand,tag=mineral] ~ ~ ~ setblock ~ ~ ~ redstone_block

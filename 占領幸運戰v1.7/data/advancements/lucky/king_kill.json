@@ -1,0 +1,1 @@
+﻿{"display":{"description":{"text":"成為嗜血魔頭","color":"white"},"title":{"text":"殺光全場","bold":true,"color":"white"},"icon":{"item":"redstone","data":0},"frame":"goal","hidden":true},"criteria":{"":{"trigger":"minecraft:impossible"}},"rewards":{},"requirements":[[""]],"parent":"lucky:end"}

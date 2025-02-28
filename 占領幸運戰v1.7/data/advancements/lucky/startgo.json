@@ -1,0 +1,1 @@
+﻿{"display":{"description":{"text":"爭奪幸運","color":"white"},"title":{"text":"幸運我拿定了","color":"white"},"icon":{"item":"golden_axe","data":0},"frame":"task","announce_to_chat":false},"criteria":{"":{"trigger":"minecraft:impossible"}},"rewards":{},"requirements":[[""]],"parent":"lucky:sign"}

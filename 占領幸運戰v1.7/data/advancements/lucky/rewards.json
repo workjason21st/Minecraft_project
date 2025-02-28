@@ -1,0 +1,1 @@
+﻿{"display":{"description":{"text":"","color":"white"},"title":{"text":"","bold":true,"color":"red"},"frame":"challenge","icon":{"item":"command_block","data":0},"hidden":true,"show_toast":false,"announce_to_chat":false},"criteria":{"":{"trigger":"minecraft:impossible"}},"rewards":{"loot":["minecraft:advancements/rewards"]},"requirements":[[""]],"parent":"lucky:sign"}

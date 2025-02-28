@@ -1,0 +1,313 @@
+﻿{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,  
+                "max": 4  
+            },  
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:stick",
+                    "weight": 1600,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 6
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:[\"§8寶藏隨機生成物\",\"§8生成機率１６%\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potato",
+                    "weight": 1600,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 7
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:[\"§8寶藏隨機生成物\",\"§8生成機率１６%\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cactus",
+                    "weight": 1000,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:[\"§8寶藏隨機生成物\",\"§8生成機率１０%\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_door",
+                    "weight": 1000,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:[\"§8寶藏隨機生成物\",\"§8生成機率１０%\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 700,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:[\"§8寶藏隨機生成物\",\"§8生成機率７%\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_ingot",
+                    "weight": 450,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 6
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:[\"§8寶藏隨機生成物\",\"§8生成機率４.５%\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:clay",
+                    "weight":  400,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        }                    
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:fire_charge",
+                    "weight": 900,
+                    "functions": [
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"清理工具\",Lore:[\"§8寶藏隨機生成物\",\"§8生成機率９%\",\"\",\"§a丟出去後，可以把周圍25格(5長x5寬x3格高)的\",\"§a石頭、鵝軟石、草地、土地清除\"]}}"
+                        },
+                        {  
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:firework_charge",
+                    "weight": 650,
+                    "functions": [
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"\u6316\u6d1e\u5de5\u5177\",Lore:[\"§8寶藏隨機生成物\",\"§8生成機率６.５%\",\"\",\"§a丟出去後，可以把底下15層的方塊清除\",\"§a而且最底下會有水\"]}}"
+                        },
+                        {  
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:blaze_rod",
+                    "weight": 650,
+                    "functions": [
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"\u4e00\u67f1\u64ce\u5929\",Lore:[\"§8寶藏隨機生成物\",\"§8生成機率６.５%\",\"\",\"§a丟在自己腳下，會在腳底放置15個石頭\",\"§a使用者會到上面\"]}}"
+                        },
+                        {  
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:web",
+                    "weight": 450,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:[\"§8寶藏隨機生成物\",\"§8生成機率４.５%\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 350,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 7,
+                                "max": 24
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"傷害箭\",Lore:[\"§8寶藏隨機生成物\",\"§8生成機率３.５%\"]},CustomPotionColor:4787461,pickup:2b,CustomPotionEffects:[{Id:7b,Amplifier:0b,Duration:1}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:skull",
+                    "weight": 70,
+                    "functions": [
+                        {                       
+                            "function": "set_data",
+                            "data": 4
+                        },
+          {   "function": "set_count",
+                            "count": 1
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:[\"§8寶藏隨機生成物\",\"§8生成機率０.７%\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:totem_of_undying",
+                    "weight": 50,
+                    "functions": [
+                        {                                               
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:[\"§8寶藏隨機生成物\",\"§8生成機率０.５%\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 50,
+                    "functions": [
+                        {                       
+                            "function": "set_data",
+                            "data": 1
+                        },
+                        {                                               
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:[\"§8寶藏隨機生成物\",\"§8生成機率０.５%\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:air",
+                    "weight": 79,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§8寶藏隨機生成物\",\"§8生成機率？%\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:reeds",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§d竹林教的聖品\",Lore:[\"§8寶箱隨機生成物\",\"§8生成機率０.１%\",\"§7屬於隱藏特殊道具\",\"§7聽聞竹林教有萬人教徒\",\"\",\"§2放置主手能增加自身走路的速度\",\"§2和使敵方攻速降低、緩掘\",\"§2但脫離竹子超過11秒有噁心副作用\",\"§c以上效果死掉才會消失\",\"§c道具一丟掉道具就會消失\",\"§c拿取前請詳閱竹林教義經\",\"\",\"\",\"§6拿到主手，開啟功能\"]}}"
+                        },
+                        {                       
+                            "function": "set_data",
+                            "data": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

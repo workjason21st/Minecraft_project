@@ -1,0 +1,1 @@
+﻿{"display":{"description":{"text":"礦運會一樣歐洲？","color":"white"},"title":{"text":"挖礦人生","color":"white"},"icon":{"item":"stone_pickaxe","data":0},"show_toast":false},"criteria":{"":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"item":"cobblestone","data":0}]}}},"rewards":{},"requirements":[[""]],"parent":"lucky:log"}

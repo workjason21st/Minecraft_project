@@ -1,0 +1,288 @@
+﻿{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,  
+                "max": 1 
+            },  
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:bowl",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {                       
+                            "function": "set_data",
+                            "data": 0
+                        },
+                        {
+                            "function":"set_nbt",
+                            "tag":"{display:{Name:\"§c自殺突擊碗\",Lore:[\"§7屬於特殊道具其中之一\",\"§8可藉由完成挑戰類進度\",\"§8或者用幸運星抽獎取得\",\"\",\"§c功用:§l此道具能在四面八方各丟上1個TNT\",\"§c     造成強大傷害,副作用是會被靜止不能動\",\"§a備註:§l此道具經過２分半會歸還\",\"§a§l     使用後留在地上為正常現象\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_pickaxe",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {                       
+                            "function": "set_damage",
+                            "damage": {
+
+                                "min": 0.128,
+                                "max": 0.524
+                            }
+                        },
+                        {
+                            "function":"set_nbt",
+                            "tag":"{display:{Name:\"§d遺失的礦鎬\",Lore:[\"§7屬於特殊道具其中之一\",\"§8可藉由完成挑戰類進度\",\"§8或者用幸運星抽獎取得\",\"\",\"§c功用:§l這鐵鎬擁有幸運附魔\"]}}"
+                        },
+                        {   "function":"enchant_randomly",
+                            "enchantments":["fortune"]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_sword",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {                       
+                            "function": "set_damage",
+                            "damage": {
+
+                                "min": 1.0,
+                                "max": 1.0
+                            }
+                        },
+                        {
+                            "function":"set_nbt",
+                            "tag":"{display:{Name:\"§8闡釋者\",Lore:[\"§7屬於特殊道具其中之一\",\"§8可藉由完成挑戰類進度\",\"§8或者用幸運星抽獎取得\",\"\",\"§c功用:§l這把劍比鑽石斧攻擊力高\"]}}"
+                        },
+                        {  
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.attackDamage",
+                                    "name": "High damage",
+                                    "amount": {
+                                        "min": 10,
+                                        "max": 13
+                                    },
+                                        "operation": "addition",
+                                        "slot": [
+                                            "mainhand"
+                                    ],
+                                        "id": "00000000-0000-0001-0000-000000000001"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_boots",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {                       
+                            "function": "set_damage",
+                            "damage": {
+
+                                "min": 1.0,
+                                "max": 1.0
+                            }
+                        },
+                        {
+                            "function":"set_nbt",
+                            "tag":"{display:{Name:\"§6輕靈黃金鞋\",Lore:[\"§7屬於特殊道具其中之一\",\"§8可藉由完成挑戰類進度\",\"§8或者用幸運星抽獎取得\",\"\",\"§c功用:§l這雙鞋能增加跑速\"]}}"
+                        },
+                        {  
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.movementSpeed",
+                                    "name": "High speed",
+                                    "amount": {
+                                        "min": 0.1,
+                                        "max": 0.1
+                                    },
+                                        "operation": "addition",
+                                        "slot": [
+                                            "feet"
+                                    ],
+                                        "id": "00000000-0000-0001-0000-000000000001"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:concrete",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {                       
+                            "function": "set_data",
+                            "data": 15
+                        },
+                        {
+                            "function":"set_nbt",
+                            "tag":"{display:{Name:\"§0吸收一切能量\",Lore:[\"§7屬於特殊道具其中之一\",\"§8可藉由完成挑戰類進度\",\"§8或者用幸運星抽獎取得\",\"\",\"§c功用:§l丟出去後能夠有吸收效果\",\"§c     效果４０滴血，持續９０秒\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:double_plant",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {                       
+                            "function": "set_data",
+                            "data": 0
+                        },
+                        {
+                            "function":"set_nbt",
+                            "tag":"{display:{Name:\"§7上天賜予錢\",Lore:[\"§7屬於特殊道具其中之一\",\"§8可藉由完成挑戰類進度\",\"§8或者用幸運星抽獎取得\",\"\",\"§c功用:§l丟出去後能夠在１０秒內\",\"§c     每秒給予２６～３０黏土\",\"§a備註:§l使用後留在地上為正常現象\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {                       
+                            "function": "set_data",
+                            "data": 0
+                        },
+                        {
+                            "function":"set_nbt",
+                            "tag":"{display:{Name:\"§4血爆胸甲\",Lore:[\"§7屬於特殊道具其中之一\",\"§8可藉由完成挑戰類進度\",\"§8或者用幸運星抽獎取得\",\"\",\"§c功用:§l穿上能讓最大血量加10滴血\"]}}"
+                        },
+                        {  
+                            "function": "set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "generic.maxHealth",
+                                    "name": "High speed",
+                                    "amount": {
+                                        "min": 10,
+                                        "max": 10
+                                    },
+                                        "operation": "addition",
+                                        "slot": [
+                                            "chest"
+                                    ],
+                                        "id": "00000000-0000-0001-0000-000000000001"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:end_portal_frame",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {                       
+                            "function": "set_data",
+                            "data": 0
+                        },
+                        {
+                            "function":"set_nbt",
+                            "tag":"{display:{Name:\"§2傷害傳送門\",Lore:[\"§7屬於特殊道具其中之一\",\"§8可藉由完成挑戰類進度\",\"§8或者用幸運星抽獎取得\",\"\",\"§c功用:§l丟出去後能夠在１５秒內\",\"§c     無視任何物理傷害\",\"§a備註:§l此道具經過４分後會歸還\",\"§a§l     使用後留在地上為正常現象\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:dye",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {                       
+                            "function": "set_data",
+                            "data": 0
+                        },
+                        {
+                            "function":"set_nbt",
+                            "tag":"{display:{Name:\"§0黑死你全家\",Lore:[\"§7屬於特殊道具其中之一\",\"§8可藉由完成挑戰類進度\",\"§8或者用幸運星抽獎取得\",\"\",\"§c功用:§l丟出去後能夠在７秒內\",\"§c     使敵方失去視野\",\"§a備註:§l此道具經過４分後會歸還\",\"§a§l     使用後留在地上為正常現象\"]}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

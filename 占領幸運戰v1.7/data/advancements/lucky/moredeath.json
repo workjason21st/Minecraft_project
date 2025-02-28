@@ -1,0 +1,1 @@
+﻿{"display":{"description":{"text":"死亡次數達到４４次","color":"white"},"title":{"text":"活著好難，人生好難","bold":true,"color":"red"},"frame":"challenge","icon":{"item":"web","data":0},"hidden":true},"criteria":{"":{"trigger":"minecraft:impossible"}},"rewards":{"experience":91,"loot":["minecraft:advancements/rewards"]},"requirements":[[""]],"parent":"lucky:not_die"}

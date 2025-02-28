@@ -1,0 +1,530 @@
+﻿{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,  
+                "max": 1  
+            },  
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:chainmail_helmet",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"石頭頭盔\"}}"
+                        }
+                    ]
+                }
+            ]    
+        },
+        {
+            "rolls": {
+                "min": 1,  
+                "max": 1  
+            },  
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:chainmail_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"石頭胸甲\"}}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,  
+                "max": 1  
+            },  
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:chainmail_leggings",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"石頭護腿\"}}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,  
+                "max": 1  
+            },  
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:chainmail_boots",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"石頭靴子\"}}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 23,  
+                "max": 23  
+            },  
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:barrier",
+                    "weight": 1,
+                    "functions": [
+                        {  
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {  
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"空氣\",Lore:[\"§c請勿拿取\"]}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+﻿{"display":{"description":{"text":"殺了第一條人命","color":"white"},"title":{"text":"我殺人了．．．","color":"white"},"icon":{"item":"wooden_sword","data":0},"frame":"goal","show_toast":false},"criteria":{"p_k_e-player":{"trigger":"minecraft:player_killed_entity","conditions":{"entity":{"type":"player"}}}},"rewards":{"experience":1},"requirements":[["p_k_e-player"]],"parent":"lucky:log"}

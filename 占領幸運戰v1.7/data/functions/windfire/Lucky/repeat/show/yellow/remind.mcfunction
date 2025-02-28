@@ -1,0 +1,1 @@
+execute @a[rym=-179,ry=-91] ~ ~ ~ detect ~ ~-2 ~ yellow_shulker_box 1 title @s actionbar [{"text":"小提醒:若使用合成台可以開啟裡面的小綠書    方便查看可合成項目","color":"blue","bold":true}]

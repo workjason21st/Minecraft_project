@@ -1,0 +1,1 @@
+﻿{"display":{"description":{"text":"贏得勝利","bold":true,"color":"white"},"title":{"text":"成功占領幸運","bold":true,"color":"white"},"icon":{"item":"end_crystal","data":0},"frame":"goal"},"criteria":{"":{"trigger":"minecraft:impossible"}},"rewards":{},"requirements":[[""]],"parent":"lucky:startgo"}

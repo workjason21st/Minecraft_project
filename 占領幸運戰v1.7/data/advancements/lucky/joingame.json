@@ -1,0 +1,1 @@
+﻿{"display":{"description":{"text":"參加憋氣大賽的獎勵","color":"white"},"title":{"text":"參加獎","color":"white"},"icon":{"item":"glass_bottle","data":0},"announce_to_chat":false},"criteria":{"":{"trigger":"minecraft:impossible"}},"rewards":{},"requirements":[[""]],"parent":"lucky:case"}
