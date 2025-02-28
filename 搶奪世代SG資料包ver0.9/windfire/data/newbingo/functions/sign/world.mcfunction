@@ -1,0 +1,6 @@
+execute as @e[tag=random0] at @s run setblock ~11 226 ~-2 air
+execute as @e[tag=random0,scores={openworld=0}] at @s run setblock ~11 226 ~-2 minecraft:birch_wall_sign[facing=west]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"scoreboard players set @e[tag=random0] openworld 1"}}',Text2:'{"text":"目標範圍:主世界","color":"dark_red","bold":"true"}',Text3:'{"text":""}',Text4:'{"text":"點我切換","color":"black","clickEvent":{"action":"run_command","value":"function newbingo:sign/world"}}'}
+execute as @e[tag=random0,scores={openworld=1}] at @s run setblock ~11 226 ~-2 minecraft:birch_wall_sign[facing=west]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"scoreboard players set @e[tag=random0] openworld 0"}}',Text2:'{"text":"目標範圍:開放地獄","color":"red","bold":"true"}',Text3:'{"text":""}',Text4:'{"text":"點我切換","color":"black","clickEvent":{"action":"run_command","value":"function newbingo:sign/world"}}'}
+
+execute as @e[tag=random0,scores={openworld=0}] run tellraw @a ["",{"text":"\n\n只開放主世界 ： ","bold":true,"color":"dark_red"},{"text":"\n開玩家不能進入地獄或終界(被傳回重生點)"},{"text":"\n而且目標池只有主世界能取得的目標物"}]
+execute as @e[tag=random0,scores={openworld=1}] run tellraw @a ["",{"text":"\n\n開放地獄 ： ","bold":true,"color":"dark_red"},{"text":"\n開放後玩家可以進入地獄"},{"text":"\n並且目標池增加地獄的目標物"}]

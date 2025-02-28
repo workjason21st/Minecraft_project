@@ -1,0 +1,3 @@
+execute if entity Tuan_Tuan as @e[tag=random0,scores={theend=-1}] run tag @s add EGG_phantomXjack
+execute if entity @e[tag=EGG_phantomXjack] run tellraw @a ["",{"text":"\nphantomXjack","bold":true,"color":"gold"},{"text":"玩家登入彩蛋 ： ","color":"white"},{"text":"新增特殊設定 「你就是王」 ","bold":true,"color":"white"}]
+execute if entity @e[tag=EGG_phantomXjack] as @e[tag=random0] at @s run setblock ~-11 227 ~-4 minecraft:jungle_wall_sign[facing=east]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"tag @e[tag=random0] add lockjack"}}',Text2:'{"text":"你就是王: 關閉","color":"green","bold":"true"}',Text3:'{"text":""}',Text4:'{"text":"點我開啟","color":"black","clickEvent":{"action":"run_command","value":"function newbingo:sign/other/egg"}}'}

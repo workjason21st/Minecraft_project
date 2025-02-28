@@ -1,0 +1,3 @@
+execute if entity OokoukioO as @e[tag=random0,scores={theend=-1}] run tag @s add EGG_OokoukioO
+execute if entity @e[tag=EGG_OokoukioO] run tellraw @a ["",{"text":"\nOokoukioO","bold":true,"color":"gold"},{"text":"玩家登入彩蛋 ： ","color":"white"},{"text":"新增特殊設定 「真男人不穿褲子」 ","bold":true,"color":"white"}]
+execute if entity @e[tag=EGG_OokoukioO] as @e[tag=random0] at @s run setblock ~-11 227 ~-6 minecraft:jungle_wall_sign[facing=east]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"tag @e[tag=random0] add lockkouki"}}',Text2:'{"text":"拒絕邪惡的褲: 關閉","color":"green","bold":"true"}',Text3:'{"text":""}',Text4:'{"text":"點我開啟","color":"black","clickEvent":{"action":"run_command","value":"function newbingo:sign/other/egg"}}'}

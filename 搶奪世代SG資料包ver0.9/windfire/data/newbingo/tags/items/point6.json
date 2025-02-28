@@ -1,0 +1,24 @@
+{
+	"replace": false,
+	"values": [
+    "minecraft:enchanted_golden_apple",
+    "minecraft:sticky_piston",
+    "minecraft:enchanting_table",
+    "minecraft:totem_of_undying",
+    "minecraft:conduit",
+    "minecraft:scute",
+    "minecraft:diamond_horse_armor",
+    "minecraft:diamond_helmet",
+    "minecraft:diamond_chestplate",
+    "minecraft:diamond_leggings",
+    "minecraft:diamond_boots",
+    "minecraft:honey_block",
+    "minecraft:respawn_anchor",
+    "minecraft:netherite_scrap",
+    "minecraft:lodestone",
+    "minecraft:elytra",
+    "minecraft:shulker_box",
+    "minecraft:dragon_head",
+ 	 	"minecraft:powder_snow_bucket"
+	]
+}

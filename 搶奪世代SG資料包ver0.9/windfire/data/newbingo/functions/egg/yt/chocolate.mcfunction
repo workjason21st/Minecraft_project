@@ -1,0 +1,3 @@
+execute if entity Hi_Chocolate as @e[tag=random0,scores={theend=-1}] run tag @s add EGG_Hi_Chocolate
+execute if entity @e[tag=EGG_Hi_Chocolate] run tellraw @a ["",{"text":"\nHi_Chocolate","bold":true,"color":"gold"},{"text":"玩家登入彩蛋 ： ","color":"white"},{"text":"新增特殊設定 「鎖定目標聖物可可豆」 ","bold":true,"color":"white"}]
+execute if entity @e[tag=EGG_Hi_Chocolate] as @e[tag=random0] at @s run setblock ~-11 227 ~-10 minecraft:jungle_wall_sign[facing=east]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"tag @e[tag=random0] add lockcocoa"}}',Text2:'{"text":"鎖定可可豆: 關閉","color":"green","bold":"true"}',Text3:'{"text":""}',Text4:'{"text":"點我開啟","color":"black","clickEvent":{"action":"run_command","value":"function newbingo:sign/other/egg"}}'}

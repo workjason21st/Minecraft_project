@@ -1,0 +1,3 @@
+execute if entity Tuan_Tuan as @e[tag=random0,scores={theend=-1}] run tag @s add EGG_oreki20
+execute if entity @e[tag=EGG_oreki20] run tellraw @a ["",{"text":"\noreki20","bold":true,"color":"gold"},{"text":"玩家登入彩蛋 ： ","color":"white"},{"text":"新增特殊設定 「我是200」 ","bold":true,"color":"white"}]
+execute if entity @e[tag=EGG_oreki20] as @e[tag=random0] at @s run setblock ~-11 227 ~-3 minecraft:jungle_wall_sign[facing=east]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"tag @e[tag=random0] add lock20"}}',Text2:'{"text":"我是200: 關閉","color":"green","bold":"true"}',Text3:'{"text":""}',Text4:'{"text":"點我開啟","color":"black","clickEvent":{"action":"run_command","value":"function newbingo:sign/other/egg"}}'}

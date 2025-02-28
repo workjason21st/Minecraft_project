@@ -1,0 +1,4 @@
+execute if entity @e[tag=random0,scores={theend=0}] as @e[tag=moontick,nbt={PortalCooldown:20},scores={gametime=1..4}] run tellraw @a ["",{"text":"【隕月來襲】","color":"white","bold":"true"},{"text":"還有","color":"white"},{"score":{"name":"@e[tag=moontick,limit=1]","objective":"gametime"},"bold":true,"color":"dark_red"},{"text":"秒即將到達","color":"white"}]
+execute if entity @e[tag=random0,scores={theend=0}] as @e[tag=moontick,nbt={PortalCooldown:20},scores={gametime=..0}] run tellraw @a ["",{"text":"\n【隕月來襲了】","color":"white","bold":"true"},{"text":"趕快跑喔","color":"white"}]
+execute if entity @e[tag=random0,scores={theend=0}] as @e[tag=moontick,nbt={PortalCooldown:20},scores={gametime=..0}] as @a at @s run summon minecraft:fireball ~ 200 ~ {ExplosionPower:10,power:[0.0d,-0.2d,0.0d]}
+execute if entity @e[tag=random0,scores={theend=0}] as @e[tag=moontick,nbt={PortalCooldown:20},scores={gametime=..0}] run scoreboard players set @s gametime 240

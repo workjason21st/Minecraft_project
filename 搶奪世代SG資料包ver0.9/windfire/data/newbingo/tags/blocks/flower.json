@@ -1,0 +1,20 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:small_flowers",
+    "#minecraft:tall_flowers",
+    "#minecraft:saplings",
+    "#minecraft:banners",
+    "#minecraft:carpets",
+    "#minecraft:wooden_doors",
+    "minecraft:lava",
+    "minecraft:water",
+    "minecraft:grass",
+    "minecraft:vine",
+    "minecraft:tall_grass",
+    "minecraft:fern",
+    "minecraft:large_fern",
+    "minecraft:snow",
+    "minecraft:sugar_cane"
+  ]
+}

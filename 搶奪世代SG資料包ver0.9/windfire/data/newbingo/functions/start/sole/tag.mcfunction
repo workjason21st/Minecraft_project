@@ -1,0 +1,15 @@
+execute if entity @a[tag=nopoint1] run tag @a[tag=!nopoint1] add nopoint1
+execute if entity @a[tag=nopoint2] run tag @a[tag=!nopoint2] add nopoint2
+execute if entity @a[tag=nopoint3] run tag @a[tag=!nopoint3] add nopoint3
+execute if entity @a[tag=nopoint4] run tag @a[tag=!nopoint4] add nopoint4
+execute if entity @a[tag=nopoint5] run tag @a[tag=!nopoint5] add nopoint5
+execute if entity @a[tag=nopoint6] run tag @a[tag=!nopoint6] add nopoint6
+execute if entity @a[tag=nopoint7] run tag @a[tag=!nopoint7] add nopoint7
+execute if entity @a[tag=nopoint8] run tag @a[tag=!nopoint8] add nopoint8
+execute if entity @a[tag=nopoint9] run tag @a[tag=!nopoint9] add nopoint9
+execute if entity @a[tag=nopoint10] run tag @a[tag=!nopoint10] add nopoint10
+execute if entity @a[tag=nopoint11] run tag @a[tag=!nopoint11] add nopoint11
+execute if entity @a[tag=nopoint12] run tag @a[tag=!nopoint12] add nopoint12
+execute if entity @a[tag=nopoint13] run tag @a[tag=!nopoint13] add nopoint13
+execute if entity @a[tag=nopoint14] run tag @a[tag=!nopoint14] add nopoint14
+execute if entity @a[tag=nopoint15] run tag @a[tag=!nopoint15] add nopoint15

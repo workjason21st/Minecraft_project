@@ -1,0 +1,3 @@
+execute if entity Tuan_Tuan as @e[tag=random0,scores={theend=-1}] run tag @s add EGG_Tuan_Tuan
+execute if entity @e[tag=EGG_Tuan_Tuan] run tellraw @a ["",{"text":"\nTuan_Tuan","bold":true,"color":"gold"},{"text":"玩家登入彩蛋 ： ","color":"white"},{"text":"新增特殊設定 「鎖定目標竹子」 ","bold":true,"color":"white"}]
+execute if entity @e[tag=EGG_Tuan_Tuan] as @e[tag=random0] at @s run setblock ~-11 227 ~-5 minecraft:jungle_wall_sign[facing=east]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"tag @e[tag=random0] add locktuan"}}',Text2:'{"text":"鎖定竹子: 關閉","color":"green","bold":"true"}',Text3:'{"text":""}',Text4:'{"text":"點我開啟","color":"black","clickEvent":{"action":"run_command","value":"function newbingo:sign/other/egg"}}'}

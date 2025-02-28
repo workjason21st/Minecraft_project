@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"\n遊戲結束： ","color":"black"},{"text":"\n會出現統計，點擊稱號名稱即可查看更多"},{"text":"\n\n找尋下一個中心點(盡量離超過10000格)","bold":true,"color":"dark_aqua"},{"text":"\nOP輸入指令/function newbingo:set","bold":true,"color":"dark_aqua"},{"text":"\n開始下場遊戲"}]

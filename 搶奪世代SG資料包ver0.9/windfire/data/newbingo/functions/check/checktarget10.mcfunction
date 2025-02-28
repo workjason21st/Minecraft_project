@@ -1,0 +1,21 @@
+execute as @a[tag=!point10s] if score @e[tag=random10,limit=1] random00 = @s target10 run scoreboard players set @s pointdetects 1
+
+execute if score @e[tag=random10,limit=1] random00 matches 1 store success score @a[tag=!nopoint10,scores={pointdetects=1}] point10detect run clear @s minecraft:enchanted_golden_apple 0
+execute if score @e[tag=random10,limit=1] random00 matches 2 store success score @a[tag=!nopoint10,scores={pointdetects=1}] point10detect run clear @s minecraft:sticky_piston 0
+execute if score @e[tag=random10,limit=1] random00 matches 3 store success score @a[tag=!nopoint10,scores={pointdetects=1}] point10detect run clear @s minecraft:enchanting_table 0
+execute if score @e[tag=random10,limit=1] random00 matches 4 store success score @a[tag=!nopoint10,scores={pointdetects=1}] point10detect run clear @s minecraft:totem_of_undying 0
+execute if score @e[tag=random10,limit=1] random00 matches 5 store success score @a[tag=!nopoint10,scores={pointdetects=1}] point10detect run clear @s minecraft:conduit 0
+execute if score @e[tag=random10,limit=1] random00 matches 6 store success score @a[tag=!nopoint10,scores={pointdetects=1}] point10detect run clear @s minecraft:scute 0
+execute if score @e[tag=random10,limit=1] random00 matches 7 store success score @a[tag=!nopoint10,scores={pointdetects=1}] point10detect run clear @s minecraft:diamond_horse_armor 0
+execute if score @e[tag=random10,limit=1] random00 matches 8 store success score @a[tag=!nopoint10,scores={pointdetects=1}] point10detect run clear @s minecraft:diamond_helmet 0
+execute if score @e[tag=random10,limit=1] random00 matches 9 store success score @a[tag=!nopoint10,scores={pointdetects=1}] point10detect run clear @s minecraft:diamond_chestplate 0
+execute if score @e[tag=random10,limit=1] random00 matches 10 store success score @a[tag=!nopoint10,scores={pointdetects=1}] point10detect run clear @s minecraft:diamond_leggings 0
+execute if score @e[tag=random10,limit=1] random00 matches 11 store success score @a[tag=!nopoint10,scores={pointdetects=1}] point10detect run clear @s minecraft:diamond_boots 0
+execute if score @e[tag=random10,limit=1] random00 matches 12 store success score @a[tag=!nopoint10,scores={pointdetects=1}] point10detect run clear @s minecraft:powder_snow_bucket 0
+execute if score @e[tag=random10,limit=1] random00 matches 13 store success score @a[tag=!nopoint10,scores={pointdetects=1}] point10detect run clear @s minecraft:honey_block 0
+execute if score @e[tag=random10,limit=1] random00 matches 14 store success score @a[tag=!nopoint10,scores={pointdetects=1}] point10detect run clear @s minecraft:respawn_anchor 0
+execute if score @e[tag=random10,limit=1] random00 matches 15 store success score @a[tag=!nopoint10,scores={pointdetects=1}] point10detect run clear @s minecraft:netherite_scrap 0
+execute if score @e[tag=random10,limit=1] random00 matches 16 store success score @a[tag=!nopoint10,scores={pointdetects=1}] point10detect run clear @s minecraft:lodestone 0
+execute if score @e[tag=random10,limit=1] random00 matches 17 store success score @a[tag=!nopoint10,scores={pointdetects=1}] point10detect run clear @s minecraft:elytra 0
+execute if score @e[tag=random10,limit=1] random00 matches 18 store success score @a[tag=!nopoint10,scores={pointdetects=1}] point10detect run clear @s minecraft:shulker_box 0
+execute if score @e[tag=random10,limit=1] random00 matches 19 store success score @a[tag=!nopoint10,scores={pointdetects=1}] point10detect run clear @s minecraft:dragon_head 0

@@ -1,0 +1,5 @@
+execute as @e[tag=random0] at @s run setblock ~11 227 ~-9 air
+execute as @e[tag=random0,scores={bingoclear=0}] at @s run setblock ~11 227 ~-9 minecraft:birch_wall_sign[facing=west]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"scoreboard players set @e[tag=random0,scores={bingoclear=0}] bingoclear 1"}}',Text2:'{"text":"處決模式: 關閉","color":"dark_blue","bold":"true"}',Text3:'{"text":""}',Text4:'{"text":"點我開啟模式","color":"black","clickEvent":{"action":"run_command","value":"function newbingo:sign/clearchange"}}'}
+execute as @e[tag=random0,scores={bingoclear=1}] at @s run setblock ~11 227 ~-9 minecraft:acacia_wall_sign[facing=west]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"scoreboard players set @e[tag=random0,scores={bingoclear=1}] bingoclear 0"}}',Text2:'{"text":"處決模式: 開啟","color":"dark_blue","bold":"true"}',Text3:'{"text":""}',Text4:'{"text":"點我關閉模式","color":"black","clickEvent":{"action":"run_command","value":"function newbingo:sign/clearchange"}}'}
+
+execute if entity @e[tag=random0,scores={bingoclear=1}] run tellraw @a ["",{"text":"\n\n處決模式 ： ","bold":true,"color":"dark_blue"},{"text":"\n目標物被取得後, 它會被處決(清除)"}]

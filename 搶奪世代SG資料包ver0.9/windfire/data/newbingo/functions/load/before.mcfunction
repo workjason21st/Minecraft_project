@@ -1,0 +1,1 @@
+tellraw @p ["","\n",{"text":"開始前建議先進行世界載圖再開始(降低跑圖LAG)","bold":true,"color":"white","clickEvent":{"action":"run_command","value":"/function newbingo:load/tellraw"}},"\n",{"text":"或是點我強制開始","bold":true,"color":"dark_purple","clickEvent":{"action":"run_command","value":"/function newbingo:start/startcheck"}}]

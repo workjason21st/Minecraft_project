@@ -1,0 +1,3 @@
+execute if entity Hageeshow as @e[tag=random0,scores={theend=-1}] run tag @s add EGG_Hageeshow
+execute if entity @e[tag=EGG_Hageeshow] run tellraw @a ["",{"text":"\nHageeshow","bold":true,"color":"gold"},{"text":"玩家登入彩蛋 ： ","color":"white"},{"text":"新增特殊設定 「鎖定目標西瓜」 ","bold":true,"color":"white"}]
+execute if entity @e[tag=EGG_Hageeshow] as @e[tag=random0] at @s run setblock ~-11 227 ~-8 minecraft:jungle_wall_sign[facing=east]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"tag @e[tag=random0] add lockhagee"}}',Text2:'{"text":"鎖定西瓜: 關閉","color":"green","bold":"true"}',Text3:'{"text":""}',Text4:'{"text":"點我開啟","color":"black","clickEvent":{"action":"run_command","value":"function newbingo:sign/other/egg"}}'}

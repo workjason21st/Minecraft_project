@@ -1,0 +1,3 @@
+execute if entity Hsiao_Yui as @e[tag=random0,scores={theend=-1}] run tag @s add EGG_Hsiao_Yui
+execute if entity @e[tag=EGG_Hsiao_Yui] run tellraw @a ["",{"text":"\nHsiao_Yui","bold":true,"color":"gold"},{"text":"玩家登入彩蛋 ： ","color":"white"},{"text":"新增特殊設定 「不要破壞我的家」 ","bold":true,"color":"white"}]
+execute if entity @e[tag=EGG_Hsiao_Yui] as @e[tag=random0] at @s run setblock ~-11 227 ~-7 minecraft:jungle_wall_sign[facing=east]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"tag @e[tag=random0] add lockyui"}}',Text2:'{"text":"不殘害蜜蜂: 關閉","color":"green","bold":"true"}',Text3:'{"text":""}',Text4:'{"text":"點我開啟","color":"black","clickEvent":{"action":"run_command","value":"function newbingo:sign/other/egg"}}'}
