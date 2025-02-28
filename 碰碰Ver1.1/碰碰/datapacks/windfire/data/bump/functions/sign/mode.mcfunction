@@ -1,0 +1,8 @@
+
+setblock 117 43 111 air
+execute as @e[tag=mainAI,scores={bumpmode=0}] at @s run setblock 117 43 111 minecraft:birch_wall_sign[facing=south]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"scoreboard players set @e[tag=mainAI] bumpmode 1"}}',Text2:'{"text":"目前模式: 一般","color":"dark_blue","bold":"true"}',Text3:'{"text":""}',Text4:'{"text":"點我切換模式","color":"black","clickEvent":{"action":"run_command","value":"function bump:sign/mode"}}'}
+execute as @e[tag=mainAI,scores={bumpmode=1}] at @s run setblock 117 43 111 minecraft:oak_wall_sign[facing=south]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"scoreboard players set @e[tag=mainAI] bumpmode 2"}}',Text2:'{"text":"目前模式: 競技","color":"dark_blue","bold":"true"}',Text3:'{"text":""}',Text4:'{"text":"點我切換模式","color":"black","clickEvent":{"action":"run_command","value":"function bump:sign/mode"}}'}
+execute as @e[tag=mainAI,scores={bumpmode=2}] at @s run setblock 117 43 111 minecraft:acacia_wall_sign[facing=south]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"scoreboard players set @e[tag=mainAI] bumpmode 0"}}',Text2:'{"text":"目前模式: 落馬","color":"dark_blue","bold":"true"}',Text3:'{"text":""}',Text4:'{"text":"點我切換模式","color":"black","clickEvent":{"action":"run_command","value":"function bump:sign/mode"}}'}
+#execute as @e[tag=mainAI,scores={bumpmode=3}] at @s run setblock 117 43 111 minecraft:oak_wall_sign[facing=south]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"scoreboard players set @e[tag=mainAI] bumpmode 0"}}',Text2:'{"text":"目前模式: 積分","color":"dark_blue","bold":"true"}',Text3:'{"text":""}',Text4:'{"text":"點我切換模式","color":"black","clickEvent":{"action":"run_command","value":"function bump:sign/mode"}}'}
+
+function bump:sign/modesay

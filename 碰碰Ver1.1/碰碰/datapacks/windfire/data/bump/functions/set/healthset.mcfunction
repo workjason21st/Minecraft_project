@@ -1,0 +1,21 @@
+execute if entity @e[tag=mainAI,scores={bumphealth=2}] as @a run attribute @s minecraft:generic.max_health base set 2
+execute if entity @e[tag=mainAI,scores={bumphealth=4}] as @a run attribute @s minecraft:generic.max_health base set 4
+execute if entity @e[tag=mainAI,scores={bumphealth=6}] as @a run attribute @s minecraft:generic.max_health base set 6
+execute if entity @e[tag=mainAI,scores={bumphealth=8}] as @a run attribute @s minecraft:generic.max_health base set 8
+execute if entity @e[tag=mainAI,scores={bumphealth=10}] as @a run attribute @s minecraft:generic.max_health base set 10
+execute if entity @e[tag=mainAI,scores={bumphealth=12}] as @a run attribute @s minecraft:generic.max_health base set 12
+execute if entity @e[tag=mainAI,scores={bumphealth=14}] as @a run attribute @s minecraft:generic.max_health base set 14
+execute if entity @e[tag=mainAI,scores={bumphealth=16}] as @a run attribute @s minecraft:generic.max_health base set 16
+execute if entity @e[tag=mainAI,scores={bumphealth=18}] as @a run attribute @s minecraft:generic.max_health base set 18
+execute if entity @e[tag=mainAI,scores={bumphealth=20}] as @a run attribute @s minecraft:generic.max_health base set 20
+
+execute if entity @e[tag=mainAI,scores={bumphealth=22}] as @a run attribute @s minecraft:generic.max_health base set 22
+execute if entity @e[tag=mainAI,scores={bumphealth=24}] as @a run attribute @s minecraft:generic.max_health base set 24
+execute if entity @e[tag=mainAI,scores={bumphealth=26}] as @a run attribute @s minecraft:generic.max_health base set 26
+execute if entity @e[tag=mainAI,scores={bumphealth=28}] as @a run attribute @s minecraft:generic.max_health base set 28
+execute if entity @e[tag=mainAI,scores={bumphealth=30}] as @a run attribute @s minecraft:generic.max_health base set 30
+execute if entity @e[tag=mainAI,scores={bumphealth=32}] as @a run attribute @s minecraft:generic.max_health base set 32
+execute if entity @e[tag=mainAI,scores={bumphealth=34}] as @a run attribute @s minecraft:generic.max_health base set 34
+execute if entity @e[tag=mainAI,scores={bumphealth=36}] as @a run attribute @s minecraft:generic.max_health base set 36
+execute if entity @e[tag=mainAI,scores={bumphealth=38}] as @a run attribute @s minecraft:generic.max_health base set 38
+execute if entity @e[tag=mainAI,scores={bumphealth=40}] as @a run attribute @s minecraft:generic.max_health base set 40

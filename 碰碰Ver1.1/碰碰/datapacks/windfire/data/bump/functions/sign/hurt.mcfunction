@@ -1,0 +1,4 @@
+setblock 111 43 114 air
+execute as @e[tag=mainAI,scores={bumphurt=0}] at @s run setblock 111 43 114 minecraft:birch_wall_sign[facing=east]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"scoreboard players set @e[tag=mainAI] bumphurt 1"}}',Text2:'{"text":"目前: 無碰碰車傷害","color":"dark_red","bold":"true"}',Text3:'{"text":""}',Text4:'{"text":"點我開啟","color":"black","clickEvent":{"action":"run_command","value":"function bump:sign/hurt"}}'}
+execute as @e[tag=mainAI,scores={bumphurt=1}] at @s run setblock 111 43 114 minecraft:dark_oak_wall_sign[facing=east]{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"scoreboard players set @e[tag=mainAI] bumphurt 0"}}',Text2:'{"text":"目前: 有碰碰車傷害","color":"red","bold":"true"}',Text3:'{"text":""}',Text4:'{"text":"點我關閉","color":"black","clickEvent":{"action":"run_command","value":"function bump:sign/hurt"}}'}
+
